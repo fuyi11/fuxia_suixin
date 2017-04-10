@@ -8,21 +8,21 @@
     android:orientation="vertical"
     tools:context=".music.mvp.view.LocalMusicActivity">
 
-    <com.susion.boring.base.view.SToolBar
+    <com.susion.fuxiaboring.base.view.SToolBar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:transitionName="@string/transition_name_tool_bar"
-        app:showTitle="true"></com.susion.boring.base.view.SToolBar>
+        app:showTitle="true"></com.susion.fuxiaboring.base.view.SToolBar>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.susion.boring.base.view.LoadMoreRecycleView
+        <com.susion.fuxiaboring.base.view.LoadMoreRecycleView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></com.susion.boring.base.view.LoadMoreRecycleView>
+            android:layout_height="match_parent"></com.susion.fuxiaboring.base.view.LoadMoreRecycleView>
 
         <RelativeLayout
             android:id="@+id/refresh_parent"

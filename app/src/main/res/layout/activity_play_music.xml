@@ -23,13 +23,13 @@
             android:scaleType="centerCrop"
             />
 
-        <com.susion.boring.base.view.SToolBar
+        <com.susion.fuxiaboring.base.view.SToolBar
             android:layout_gravity="top"
             android:layout_marginTop="@dimen/status_bar_height"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        </com.susion.boring.base.view.SToolBar>
+        </com.susion.fuxiaboring.base.view.SToolBar>
 
     </FrameLayout>
 
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content" />
 
 
-            <com.susion.boring.music.view.MediaSeekBar
+            <com.susion.fuxiaboring.music.view.MediaSeekBar
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -82,7 +82,7 @@
 
         </RelativeLayout>
 
-        <com.susion.boring.music.view.LyricView
+        <com.susion.fuxiaboring.music.view.LyricView
             android:gravity="center"
             android:text="绅士"
             android:textColor="@color/black"
@@ -92,23 +92,23 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
-        <com.susion.boring.music.view.MusicPlayControlView
+        <com.susion.fuxiaboring.music.view.MusicPlayControlView
             android:layout_marginBottom="20dp"
             android:id="@+id/control_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="4">
-        </com.susion.boring.music.view.MusicPlayControlView>
+        </com.susion.fuxiaboring.music.view.MusicPlayControlView>
 
 
-        <com.susion.boring.music.view.PlayOperatorView
+        <com.susion.fuxiaboring.music.view.PlayOperatorView
             android:layout_marginBottom="5dp"
             android:id="@+id/ac_play_music_pov"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2">
 
-        </com.susion.boring.music.view.PlayOperatorView>
+        </com.susion.fuxiaboring.music.view.PlayOperatorView>
 
     </LinearLayout>
 

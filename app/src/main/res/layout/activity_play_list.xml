@@ -23,13 +23,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <com.susion.boring.base.view.SToolBar
+            <com.susion.fuxiaboring.base.view.SToolBar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:layout_marginTop="@dimen/status_bar_height"
-                app:layout_collapseMode="pin"></com.susion.boring.base.view.SToolBar>
+                app:layout_collapseMode="pin"></com.susion.fuxiaboring.base.view.SToolBar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -45,17 +45,17 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
-        <com.susion.boring.base.view.SToolBar
+        <com.susion.fuxiaboring.base.view.SToolBar
             android:id="@+id/ac_play_list_tool_bar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.susion.boring.base.view.SToolBar>
+        </com.susion.fuxiaboring.base.view.SToolBar>
 
-        <com.susion.boring.music.view.PlayOperatorView
+        <com.susion.fuxiaboring.music.view.PlayOperatorView
             android:id="@+id/play_operator"
             android:layout_width="match_parent"
-            android:layout_height="40dp"></com.susion.boring.music.view.PlayOperatorView>
+            android:layout_height="40dp"></com.susion.fuxiaboring.music.view.PlayOperatorView>
 
 
         <View
@@ -70,10 +70,10 @@
             android:layout_marginTop="5dp">
 
 
-            <com.susion.boring.base.view.LoadMoreRecycleView
+            <com.susion.fuxiaboring.base.view.LoadMoreRecycleView
                 android:id="@+id/list_view"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"></com.susion.boring.base.view.LoadMoreRecycleView>
+                android:layout_height="match_parent"></com.susion.fuxiaboring.base.view.LoadMoreRecycleView>
 
 
             <ImageView

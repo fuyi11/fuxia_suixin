@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.susion.boring.base.ui.AppInfoActivity">
+    tools:context="com.susion.fuxiaboring.base.ui.AppInfoActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/ac_play_list_app_bar_layout"
@@ -20,12 +20,12 @@
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <com.susion.boring.base.view.SToolBar
+            <com.susion.fuxiaboring.base.view.SToolBar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
-                app:layout_collapseMode="pin"></com.susion.boring.base.view.SToolBar>
+                app:layout_collapseMode="pin"></com.susion.fuxiaboring.base.view.SToolBar>
 
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -9,24 +9,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.susion.boring.base.view.SearchBar
+        <com.susion.fuxiaboring.base.view.SearchBar
             android:id="@+id/search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:transitionName="@string/transition_name_search_bar"></com.susion.boring.base.view.SearchBar>
+            android:transitionName="@string/transition_name_search_bar"></com.susion.fuxiaboring.base.view.SearchBar>
 
-        <com.susion.boring.base.view.LoadMoreRecycleView
+        <com.susion.fuxiaboring.base.view.LoadMoreRecycleView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"></com.susion.boring.base.view.LoadMoreRecycleView>
+            android:layout_weight="1"></com.susion.fuxiaboring.base.view.LoadMoreRecycleView>
     </LinearLayout>
 
-    <com.susion.boring.music.view.MusicControlPanel
+    <com.susion.fuxiaboring.music.view.MusicControlPanel
         android:id="@+id/music_control_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/bg_transparent_ripple"></com.susion.boring.music.view.MusicControlPanel>
+        android:background="@drawable/bg_transparent_ripple"></com.susion.fuxiaboring.music.view.MusicControlPanel>
 
 </FrameLayout>

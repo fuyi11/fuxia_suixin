@@ -8,10 +8,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.susion.boring.base.view.LoadMoreRecycleView
+        <com.susion.fuxiaboring.base.view.LoadMoreRecycleView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></com.susion.boring.base.view.LoadMoreRecycleView>
+            android:layout_height="match_parent"></com.susion.fuxiaboring.base.view.LoadMoreRecycleView>
 
     </android.support.v4.widget.SwipeRefreshLayout>
 

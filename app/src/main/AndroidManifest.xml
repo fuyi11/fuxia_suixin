@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.susion.boring">
+    package="com.susion.fuxiaboring">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -9,14 +9,14 @@
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
 
     <application
-        android:name=".base.SAppApplication"
+        android:name="com.susion.fuxiaboring.base.SAppApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".base.ui.SplashActivity"
+            android:name="com.susion.fuxiaboring.base.ui.SplashActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,24 +25,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".base.ui.mainui.MainActivity"
+            android:name="com.susion.fuxiaboring.base.ui.mainui.MainActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".music.mvp.view.SearchMusicActivity"
+            android:name="com.susion.fuxiaboring.music.mvp.view.SearchMusicActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".music.mvp.view.PlayMusicActivity"
+            android:name="com.susion.fuxiaboring.music.mvp.view.PlayMusicActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".music.mvp.view.LocalMusicActivity"
+            android:name="com.susion.fuxiaboring.music.mvp.view.LocalMusicActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".music.mvp.view.MyLikeActivity"
+            android:name="com.susion.fuxiaboring.music.mvp.view.MyLikeActivity"
             android:theme="@style/AppTheme" />
 
         <service
-            android:name=".base.service.BaseService"
+            android:name="com.susion.fuxiaboring.base.service.BaseService"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -51,26 +51,26 @@
         </service>
 
         <activity
-            android:name=".music.mvp.view.PlayListActivity"
+            android:name="com.susion.fuxiaboring.music.mvp.view.PlayListActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".read.mvp.view.ZhiHuEssayActivity"
+            android:name="com.susion.fuxiaboring.read.mvp.view.ZhiHuEssayActivity"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".read.mvp.view.PictureViewActivity"
+            android:name="com.susion.fuxiaboring.read.mvp.view.PictureViewActivity"
             android:theme="@style/TranslucentTheme" />
         <activity
-            android:name=".base.ui.AuthorActivity"
+            android:name="com.susion.fuxiaboring.base.ui.AuthorActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".base.ui.CollectActivity"
+            android:name="com.susion.fuxiaboring.base.ui.CollectActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".base.ui.AppInfoActivity"
+            android:name="com.susion.fuxiaboring.base.ui.AppInfoActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".base.ui.SettingActivity"
+            android:name="com.susion.fuxiaboring.base.ui.SettingActivity"
             android:theme="@style/AppTheme"></activity>
     </application>
 

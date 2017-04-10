@@ -7,6 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.susion.boring.base.ui.AuthorActivity">
+    tools:context="com.susion.fuxiaboring.base.ui.AuthorActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="朋友们支持伏峡商城，有需要购买乐器的联系我"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:textSize="14dp" />
 </RelativeLayout>
